@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "rebuild": "rm -rf .next out && next build",
+    "postinstall": "prisma generate",
     "start": "next start",
     "lint": "next lint"
   },
